@@ -1,0 +1,38 @@
+* {
+    text-align: center;
+    margin: 0;
+}
+
+hr {
+    /* set the margin of top and bottom of 100px and left right of 0 */
+    width: 10%;
+    margin: auto;
+    /* border-top: dotted;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    
+    replaced this code with this shorthand*/
+
+    border-style: dotted none none none;
+    border-width: 8px;
+    border-color: #1abc9c;
+
+}
+
+.web{
+    color: #ffd700;
+}
+
+.introduction {
+    padding: 50px;
+    color: #194769;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.profilePhoto {
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
